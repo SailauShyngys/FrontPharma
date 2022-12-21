@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@600&family=Montserrat:wght@500&display=swap');
+
+@media screen and (max-width: 2560px) {
+    body{
+        background: #F1EACC;
+    }
+    .container{
+        max-width: 358px;
+    }
+    .main .container{
+        height: 60px;
+        display: flex;
+        align-items: center;
+
+        border-bottom: 1px solid #000;
+    }
+    .main .container img{
+        width: 16px;
+        height: 12px;
+    }
+    .main .container p{
+        font-family: 'Montserrat Alternates';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 29px;
+        
+        color: #1A1A1A;
+
+        margin: 0 0 0 11px;
+    }
+    .rn-con input{
+        width: 232px;
+        height: 111px;
+        border: 1px solid #000;
+        border-radius: 19px;
+        background: rgba(255, 255, 255, 0);
+
+        padding-left: 13px;
+    }
+    .btn-draft{
+        width: 358px;
+        height: 38px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        text-transform: lowercase;
+        color: #000000;
+        background: #F1EACC;
+        border: 1px solid #000000;
+        border-radius: 19px;
+    }
+    .btn-next{
+        width: 358px;
+        height: 38px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        text-transform: lowercase;
+        color: #000000;
+        background: #F8D776;
+        border: 1px solid #F8D776;
+        border-radius: 19px;
+    }
+    
+}
+    

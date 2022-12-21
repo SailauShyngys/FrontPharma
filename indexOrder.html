@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="main.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js" type="text/javascript"></script>
+    <script src="Get.js"></script>
+    <link rel="stylesheet" href="node_modules/jquery/dist/jquery.js">
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div id="main">
+            <button type="button" class="btn btn-outline-primary" onclick="GetOrder()" >GetOrderDetails
+            <div class="OrderDiv">  <div id="order" class="order"></div></div>
+            </button>
+           <br>
+            <hr><hr><hr><hr>
+            <p>Create Order Details</p>
+            <div class="col-sm-6 col-sm-offset-3">
+              <form class="drugcreate" id="2">
+                <div id="drug_id-group" class="form-group">
+                  <label for="drug_id">Drug_id</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    sale_id="drug_id"
+                    name="drug_id"
+                    placeholder="drug_id"
+                  />
+                </div>
+                <div id="Status-group" class="form-group">
+                  <label for="status">Status</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="status"
+                    name="status"
+                    placeholder="status"
+                  />
+                </div>
+                <div id="price-group" class="form-group">
+                  <label for="sum_price">Sum_Price</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="sum_price"
+                    name="sum_price"
+                    placeholder="sum_price"
+                  />
+                </div>
+                <button type="submit" class="btn btn-success">
+                  Submit
+                </button>
+              </form>
+            </div>
+      </div>
+                
+              </form>
+            </div>
+        </div>
+
+<div></div>
+
+      <div class="btn-group">
+        <a href="file:///C:/Users/Shyngys/Desktop/FrontPharma/index.html" class="btn btn-primary">Back Index</a>
+      </div>
+</body>
